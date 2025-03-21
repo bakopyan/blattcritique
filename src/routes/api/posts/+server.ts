@@ -1,6 +1,8 @@
 import { json } from "@sveltejs/kit";
 import type { Post } from "$lib/types";
 
+export const prerender = true;
+
 async function getPosts() {
   let posts: Post[] = [];
 
@@ -29,15 +31,3 @@ export async function GET() {
   const posts = await getPosts();
   return json(posts);
 }
-
-// export async function GET() {
-//   const posts = await getPosts();
-
-//   return json(posts, {
-//     headers: {
-//       "Access-Control-Allow-Origin": "*", // Allow all origins
-//       "Access-Control-Allow-Methods": "GET, OPTIONS", // Allowed methods
-//       "Access-Control-Allow-Headers": "Content-Type", // Allowed headers
-//     },
-//   });
-// }
