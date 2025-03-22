@@ -21,5 +21,11 @@
 			color: inherit;
 			text-decoration: none;
 		}
+
+		a.title {
+			font-family: 'Basteleur Moonlight', sans-serif;
+  			font-size: 34px;
+  			font-weight: bold;
+		}
 	}
 </style>

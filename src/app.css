@@ -1,6 +1,20 @@
 @import "@fontsource/atkinson-hyperlegible";
 @import "@fontsource/jetbrains-mono";
 
+@font-face {
+  font-family: "Basteleur Bold";
+  src: url("/fonts/Basteleur-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Basteleur Moonlight";
+  src: url("/fonts/Basteleur-Moonlight.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
 html {
   /* font */
   --font-system-ui: "Atkinson Hyperlegible", sans-serif;

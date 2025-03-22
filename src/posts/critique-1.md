@@ -1,17 +1,12 @@
 ---
-title: Merz und Klingbeil
-description: Toxische Liebe.
-date: "2025-3-21"
+title: Was ist Blattcritique?
+description: Hier steht ein Teaser oder eine Zusammenfassung.
+date: "2025-3-22"
 categories:
-  - SZ
-  - Meinung
-  - Merz
+  - In eigener Sache
 published: true
 ---
 
-## So sieht Liebe aus.
+### Was ist und warum Blattcritique?
 
-Wer hätte gedacht, dass die zwei nicht mal ein Monat nach der
-Bundestagswahl so verliebt aussehen könnten.
-
-[Siehe SZ-Original](https://www.sueddeutsche.de/meinung/schuldenbremse-finanzpaket-bundesrat-merz-kommentar-li.3222415)
+> erklärung
